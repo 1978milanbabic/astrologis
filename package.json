@@ -1,0 +1,52 @@
+{
+  "name": "react-semanticui-parcel-jest-enzyme-boilerplate",
+  "author": "Milan Babic",
+  "version": "0.0.1",
+  "description": "Just a very simple ReactJS with ParcelJS boilerplate and tests (jest & enzyme) setup",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html/",
+    "test": "jest --coverage",
+    "test-watch": "jest --watch"
+  },
+  "keywords": [
+    "react",
+    "parcel",
+    "babel",
+    "semantic-ui-react",
+    "jest",
+    "enzyme",
+    "boilerplate"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.15.6",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^27.1.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^27.1.1",
+    "jest-css-modules-transform": "^4.3.0",
+    "parcel-bundler": "^1.11.0",
+    "postcss": "^8.3.6",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-hot-loader": "^4.13.0",
+    "react-test-renderer": "^17.0.2",
+    "react-testing-library": "^8.0.1"
+  }
+}

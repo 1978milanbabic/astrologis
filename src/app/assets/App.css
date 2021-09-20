@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+  background: #2d3436;
+}
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 5px;
+} */
+
+.container {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #4d473b;
+  width: 90% !important;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.ui.input input {
+  width: 500px;
+}
