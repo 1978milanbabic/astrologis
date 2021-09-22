@@ -1,36 +1,32 @@
+// globals
+
 * {
   box-sizing: border-box;
 }
 
-body {
+body, html {
   margin: 0;
-  font-family: 'Muli', sans-serif;
-  background: #1dcbfc;
+  padding: 0;
+  background: #000000;
+  width: 100%;
+  min-height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 5px;
-} */
-
-.container {
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  min-height: 100vh;
-  color: #4d473b;
-  width: 90% !important;
-  height: 100%;
-  margin: auto;
-  text-align: center;
+#container, #root {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  color: #fff;
 }
 
-.ui.input input {
-  width: 500px;
+#css-connector {
+  width: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  z-index: -4;
 }
