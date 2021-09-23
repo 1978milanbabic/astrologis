@@ -16,6 +16,7 @@ import logo from '../../../../public/assets/logo.png'
 import astrology from '../../../../public/assets/icons/astrology.svg'
 import moon from '../../../../public/assets/icons/astrology-moon.svg'
 import star from '../../../../public/assets/icons/star.svg'
+import Astrologists from './components/Astrologists'
 
 
 const Home = () => {
@@ -141,6 +142,7 @@ const Home = () => {
       <main>
         <Planets />
         <Amulet device={screenSize} />
+        <Astrologists device={screenSize} />
 
       </main>
     </div>
