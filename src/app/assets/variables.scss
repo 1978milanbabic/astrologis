@@ -1,0 +1,22 @@
+@use "sass:math";
+// fonts
+$montserat: "Montserrat", sans-serif;
+// colors
+$white: #ffffff;
+$green: #009245;
+$red: #c1272d;
+$black: #000000;
+// $mobGradient: rgba() #29abe2 - #000000 (50%)
+
+//sizes
+$browser-default-size: 16 !default;
+$mobile-size: 750px;
+
+@function setdefault-rem-px($size: $browser-default-size) {
+    @return #{$size}px;
+}
+
+@function rem($pixels, $context: $browser-default-size) {
+  $m: math.div($pixels, $context);
+    @return #{$m}rem;
+}
