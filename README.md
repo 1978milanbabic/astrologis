@@ -1,7 +1,13 @@
-# ReactJS with ParcelJS Boilerplate
+# Astrologis
+---
+**NOTE**
 
+Frontend layout site
+
+---
+
+## technologies used
 - React.js
-- Semantic UI React
 - Babel
 - Parcel
 - eslint
