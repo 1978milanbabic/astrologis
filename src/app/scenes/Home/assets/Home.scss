@@ -217,12 +217,60 @@
     }
     // <- planets
 
+    section.amulet {
+      width: 100%;
+      overflow: hidden;
+      text-align: center;
+      position: relative;
+      padding: rem(50);
+      background-color: $black;
+
+      .left {
+        display: inline-block;
+        transform: translateX(rem(-50));
+
+        img {
+          vertical-align: middle;
+          width: rem(1160);
+          max-width: 100%;
+        }
+      }
+
+      .right {
+        position: absolute;
+        top: 50%;
+        left: calc(50% + rem(330));
+        transform: translateY(-50%);
+
+        img {
+          vertical-align: baseline;
+          width: rem(116);
+        }
+      }
+    }
+    // .amulet
+
   }
   // <- main
-
 }
 // <- Home
 
+// amulet fix
+@media screen and (max-width: 1040px) {
+  #home main section.amulet .right {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translateY(-50%);
+
+    img {
+      vertical-align: baseline;
+      width: rem(116);
+    }
+  }
+}
+
+// mobile
 @media screen and (max-width: $mobile-size) {
   #home {
     .header {
@@ -333,12 +381,49 @@
       }
       // <- planets
 
-    }
+      section.amulet {
+        // padding: rem(50);
+        text-align: left;
+        background-image: linear-gradient(to right, rgba(41, 171, 226, 1), rgba(41, 171, 226, 0.3), $black);
+        // proportional fix
+        font-size: calc(7px + (16 - 7)*(100vw - 320px)/(750 - 320));
 
+        .left {
+          display: inline-block;
+          transform: translateX(0);
+          padding-left: 0;
+          margin-left: 0;
+
+          p {
+            max-width: 60%;
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 700;
+          }
+        }
+
+        .right {
+          position: absolute;
+          top: 50%;
+          left: 60%;
+          transform: translateY(-50%);
+
+          img {
+            vertical-align: baseline;
+            width: em(300);
+          }
+        }
+      }
+      // .amulet
+
+    }
+    // main
   }
   // #home
 
 }
+
+
 
 // topo slide fix
 .second-anim {

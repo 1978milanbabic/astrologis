@@ -20,3 +20,8 @@ $mobile-size: 750px;
   $m: math.div($pixels, $context);
     @return #{$m}rem;
 }
+
+@function em($pixels, $context: $browser-default-size) {
+  $m: math.div($pixels, $context);
+    @return #{$m}em;
+}

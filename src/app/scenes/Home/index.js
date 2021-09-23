@@ -9,6 +9,7 @@ import './assets/Home.scss'
 import CallInfo from './components/CallInfo'
 import Stat from './components/Stat'
 import Planets from './components/Planets'
+import Amulet from './components/Amulet'
 
 // images
 import logo from '../../../../public/assets/logo.png'
@@ -21,7 +22,7 @@ const Home = () => {
   // states
   const [screenSize, setScreenSize] = useState()
   const [keyTopSlider1, setKeyTopSlider1] = useState(1)
-  const [keyTopSlider2, setKeyTopSlider2] = useState(4)
+  const [keyTopSlider2, setKeyTopSlider2] = useState(400)
 
   // top slider
   const scrolling1 = useSpring({
@@ -139,7 +140,7 @@ const Home = () => {
       </div>
       <main>
         <Planets />
-
+        <Amulet device={screenSize} />
 
       </main>
     </div>
