@@ -1,12 +1,8 @@
 # Astrologis
----
-**NOTE**
 
-Frontend layout site
+> Frontend layout site
 
----
-
-## technologies used
+## Technologies used
 - React.js
 - Babel
 - Parcel
