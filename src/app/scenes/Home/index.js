@@ -8,6 +8,7 @@ import './assets/Home.scss'
 // components
 import CallInfo from './components/CallInfo'
 import Stat from './components/Stat'
+import Planets from './components/Planets'
 
 // images
 import logo from '../../../../public/assets/logo.png'
@@ -137,9 +138,9 @@ const Home = () => {
         </div>
       </div>
       <main>
-        <section>
+        <Planets />
 
-        </section>
+
       </main>
     </div>
   )

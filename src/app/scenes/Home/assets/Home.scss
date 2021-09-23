@@ -6,7 +6,6 @@
   min-height: 100%;
   background-color: $black;
   color: $white;
-  height: 5000px; // ***** temporary *****
 
   .header {
     background-image: url("../../../../../public/assets/pozadina1.jpg");
@@ -48,7 +47,8 @@
         background-color: rgba(255, 255, 255, 0.8);
       }
 
-    } // nav
+    }
+    // <- nav
 
     .nav-details {
       width: 100%;
@@ -74,7 +74,8 @@
         }
       }
 
-    } // .nav-details
+    }
+    // <- .nav-details
 
     header {
       text-align: center;
@@ -102,13 +103,14 @@
           padding-bottom: rem(1);
         }
       }
-    } // header
+    }
+    // <- header
 
     .stats {
       width: 90%;
       margin: 0 auto;
       text-align: center;
-      padding-bottom: rem(30);
+      padding-bottom: rem(50);
 
       .astat-cont {
         width: rem(100);
@@ -160,15 +162,66 @@
             margin: 0;
           }
         }
-      } // .astat-cont
-    } // .stats
+      }
+      // <- .astat-cont
+    }
+    // <- .stats
+  }
+  // <- .header
 
-  } // .header
+  main {
+    width: 100%;
+    overflow: hidden;
 
+    section.planets {
+      width: 100%;
+      height: rem(618);
+      overflow: hidden;
+      background-image: url("../../../../../public/assets/pozadina2.jpg");
+      background-size: rem(1920) auto;
+      background-position: top center;
+      background-repeat: no-repeat;
+      position: relative;
 
+      .planets-inner {
+        width: 90%;
+        max-width: 1400px;
+        height: 100%;
+        display: table;
+        margin: 0 auto;
+        table-layout: fixed;
 
+        .left, .right {
+          display: table-cell;
+          vertical-align: middle;
+          text-align: center;
+        }
+
+        .left {
+          img {
+            width: rem(579);
+            max-width: calc(100% - rem(50));
+          }
+        }
+
+        .right {
+          text-align: left;
+
+          p {
+            width: 100%;
+            max-width: 580px;
+          }
+        }
+
+      }
+    }
+    // <- planets
+
+  }
+  // <- main
 
 }
+// <- Home
 
 @media screen and (max-width: $mobile-size) {
   #home {
@@ -234,10 +287,57 @@
               margin: 0;
             }
           }
-        } // .astat-cont
-      } // .stats
+        }
+        // .astat-cont
+      }
+      // .stats
     }
+    // .header
+
+    main {
+      width: 100%;
+      overflow: hidden;
+
+      section.planets {
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-position: center center;
+        padding-bottom: rem(50);
+
+        .planets-inner {
+          display: block;
+
+          .left, .right {
+            display: block;
+            width: 100%;
+          }
+
+          .left {
+            img {
+              width: rem(579);
+              max-width: 100%;
+            }
+          }
+
+          .right {
+            text-align: left;
+
+            p {
+              width: 100%;
+              max-width: 580px;
+            }
+          }
+
+        }
+      }
+      // <- planets
+
+    }
+
   }
+  // #home
+
 }
 
 // topo slide fix
