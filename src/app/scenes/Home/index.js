@@ -11,6 +11,7 @@ import Stat from './components/Stat'
 import Planets from './components/Planets'
 import Amulet from './components/Amulet'
 import Witch from './components/Witch'
+import Clients from './components/Clients'
 
 // images
 import logo from '../../../../public/assets/logo.png'
@@ -145,7 +146,7 @@ const Home = () => {
         <Amulet device={screenSize} />
         <Astrologists device={screenSize} />
         <Witch />
-
+        <Clients device={screenSize} />
       </main>
     </div>
   )
