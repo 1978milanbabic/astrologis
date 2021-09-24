@@ -6,7 +6,6 @@
 - React.js
 - Babel
 - Parcel
-- eslint
 - Jest
 - Enzime
 

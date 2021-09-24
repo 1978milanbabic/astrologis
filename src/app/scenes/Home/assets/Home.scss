@@ -257,9 +257,33 @@
       background-size: cover;
       background-position: center center;
       background-attachment: fixed;
-      padding: rem(50) 0 rem(80);
+      padding: rem(80) 0 rem(80);
 
+      .astro-headline {
+        width: 90%;
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
 
+        h2 {
+          font-size: 2rem;
+        }
+
+        p {
+          line-height: 1.2;
+          text-align: justify;
+          text-align-last: center;
+        }
+      }
+
+      .caro-cont {
+        width: "100%";
+        max-width: "1500px";
+        overflow-x: "hidden";
+        margin: "0 auto";
+        overflow-y: "auto";
+        padding-bottom: "50px";
+      }
 
       .astro-slide-cont {
         width: 90%;
@@ -360,7 +384,7 @@
           .osavet {
             p {
               text-align: justify;
-              line-height: 1.4;
+              line-height: 1.2;
 
               span {
                 font-weight: 700;

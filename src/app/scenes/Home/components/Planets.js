@@ -8,7 +8,7 @@ const Planets = props => {
     <section className='planets'>
       <div className='planets-inner'>
           <div className='left'>
-            <img alt='' src={signs} />
+            <img alt='' src={signs} className='rotate' />
           </div>
           <div className='right'>
             <p>Kao izuzetno popularna metoda, astrologija ne nudi samo uvid u dalju perspektivu,

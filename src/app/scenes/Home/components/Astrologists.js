@@ -10,24 +10,35 @@ import callNok from '../../../../../public/assets/call-nok.png'
 import astrologs from '../utils/astologysts'
 
 const Astrologists = props => {
+  const { device } = props
+
   return (
     <section className='astrologists'>
-      <h2>IZABERI SVOG ASTROLOGA</h2>
-      <p></p>
+      <div className='astro-headline'>
+        <h2>IZABERI SVOG ASTROLOGA</h2>
+        <p>Pristupiti odgovorima koje nudi astrologija uvek je jedinstveno iskustvo
+          kroz koje se dolazi do dublje samospoznaje i saznanja o putevima za sreću.
+          Stavljajući na raspolaganje najbolje stručnjake iz oblasti astrologije
+          sa višegodišnjim iskustvom,
+          astro centar nudi vam profesionalne usluge astrološkog savetovanja.</p>
+      </div>
 
-      <div style={{
-        width: '100%',
-        maxWidth: '1500px',
-        overflowX: 'hidden',
-        margin: '0 auto',
-        overflowY: 'auto',
-        paddingBottom: '50px'
-      }}>
+      <div
+        className='caro-cont'
+        style={{
+          width: '100%',
+          maxWidth: '1500px',
+          overflowX: 'hidden',
+          margin: '0 auto',
+          overflowY: 'auto',
+          paddingBottom: '50px'
+        }}
+      >
         <div className='astro-slide-cont'>
           <Carousel
             infiniteLoop={true}
             centerMode
-            centerSlidePercentage={50}
+            centerSlidePercentage={(device && device === 'mobile') ? 100 : 50}
             showArrows={false}
             showStatus={false}
             showIndicators={true}
@@ -77,6 +88,7 @@ const Astrologists = props => {
           </Carousel>
         </div>
       </div>
+
     </section>
   )
 }
