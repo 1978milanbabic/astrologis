@@ -1,7 +1,7 @@
 {
     "name": "astrologis",
     "author": "Milan Babic",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "FE-app",
     "main": "index.js",
     "scripts": {
