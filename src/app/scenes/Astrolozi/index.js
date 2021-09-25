@@ -24,7 +24,6 @@ const Astrolozi = () => {
 
   return (
     <div id='astrolozi'>
-      <p>test</p>
       <Header getScreenSize={handleScreeSize} link='' linkName='Početna' />
 
       {/* astrologysts */}
