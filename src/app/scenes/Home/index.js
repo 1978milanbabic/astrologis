@@ -29,6 +29,7 @@ const Home = () => {
   return (
     <div id='home'>
       <div className='header'>
+        <p>test</p>
         <Header getScreenSize={handleScreeSize} link='astrolozi' linkName='Astrolozi' />
         <header>
           <div className='header-cont'>
