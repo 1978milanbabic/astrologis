@@ -5,7 +5,7 @@ import callOk from '../../../../public/assets/call-ok.png'
 import callNok from '../../../../public/assets/call-ok.png'
 
 // import astros
-import astrologs from '../Home/utils/astologysts'
+import astrologs from '../../../utils/astologysts'
 
 // components
 import Header from '../components/Header'

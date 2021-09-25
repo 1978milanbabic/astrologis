@@ -1,10 +1,10 @@
 import React from 'react'
 
 // import images
-import astro1 from '../../../../../public/assets/astrolog1-100.jpg'
-import astro2 from '../../../../../public/assets/astrolog2-100.jpg'
-import astro3 from '../../../../../public/assets/astrolog3-100.jpg'
-import astro4 from '../../../../../public/assets/astrolog4.jpg'
+import astro1 from '../../public/assets/astrolog1-100.jpg'
+import astro2 from '../../public/assets/astrolog2-100.jpg'
+import astro3 from '../../public/assets/astrolog3-100.jpg'
+import astro4 from '../../public/assets/astrolog4.jpg'
 
 const astrologs = [
   {

@@ -1,7 +1,7 @@
 import React from 'react'
 
 // import images
-import client1 from '../../../../../public/assets/klijent.jpg'
+import client1 from '../../public/assets/klijent.jpg'
 
 
 const clients = [

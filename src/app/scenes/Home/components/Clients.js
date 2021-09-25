@@ -4,7 +4,7 @@ import React from 'react'
 import Footer from '../../components/Footer'
 
 // import clients info
-import clients from '../utils/clients'
+import clients from '../../../../utils/clients'
 
 const Clients = props => {
   let clLength = clients.length

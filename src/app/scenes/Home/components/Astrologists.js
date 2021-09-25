@@ -7,7 +7,7 @@ import callOk from '../../../../../public/assets/call-ok.png'
 import callNok from '../../../../../public/assets/call-nok.png'
 
 // import astros
-import astrologs from '../utils/astologysts'
+import astrologs from '../../../../utils/astologysts'
 
 const Astrologists = props => {
   const { device } = props
