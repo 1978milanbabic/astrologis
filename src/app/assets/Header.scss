@@ -1,0 +1,83 @@
+// import variables
+@import './variables.scss';
+
+nav {
+  width: rem(1400);
+  max-width: 100%;
+  margin: 0 auto;
+  padding: rem(30);
+  text-align: center;
+  position: relative;
+
+  img {
+    width: rem(200);
+    vertical-align: middle;
+  }
+
+  button {
+    position: absolute;
+    top: 50%;
+    right: rem(30);
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0;
+    padding: rem(8) rem(55);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: rem(8);
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in-out;
+  }
+
+  button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+}
+// <- nav
+
+.nav-details {
+  width: 100%;
+  background-color: $black;
+  height: rem(60);
+  position: relative;
+  overflow: hidden;
+
+  .upper-info-slide {
+    position: absolute;
+    top: rem(10);
+
+    p {
+      margin: 0;
+      width: 100%;
+      font-size: 1rem;
+      padding: 0 rem(30);
+      color: $white;
+
+      img {
+        width: rem(39);
+        vertical-align: middle;
+      }
+    }
+  }
+
+}
+// <- .nav-details
+
+// mobile
+@media screen and (max-width: $mobile-size) {
+  nav {
+    text-align: left;
+  }
+  .nav-details {
+    height: rem(100);
+  }
+}
+
+
+
+// topo slide fix
+.second-anim {
+  opacity: 0 ;
+}

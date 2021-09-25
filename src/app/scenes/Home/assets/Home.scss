@@ -1,5 +1,9 @@
 // import variables
 @import '../../../assets/variables.scss';
+// import header
+@import '../../../assets/Header.scss';
+// import footer
+@import '../../../assets/Footer.scss';
 
 #home {
   width: 100%;
@@ -13,69 +17,6 @@
     background-position: top center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
-    nav {
-      width: rem(1400);
-      max-width: 100%;
-      margin: 0 auto;
-      padding: rem(30);
-      text-align: center;
-      position: relative;
-
-      img {
-        width: rem(200);
-        vertical-align: middle;
-      }
-
-      button {
-        position: absolute;
-        top: 50%;
-        right: rem(30);
-        transform: translateY(-50%);
-        background-color: rgba(255, 255, 255, 0.2);
-        margin: 0;
-        padding: rem(8) rem(55);
-        border: 1px solid rgba(255, 255, 255, 0.8);
-        border-radius: rem(8);
-        color: #fff;
-        font-size: 1.2rem;
-        cursor: pointer;
-        transition: background-color 0.4s ease-in-out;
-      }
-
-      button:hover {
-        background-color: rgba(255, 255, 255, 0.8);
-      }
-
-    }
-    // <- nav
-
-    .nav-details {
-      width: 100%;
-      background-color: $black;
-      height: rem(60);
-      position: relative;
-      overflow: hidden;
-
-      .upper-info-slide {
-        position: absolute;
-        top: rem(10);
-
-        p {
-          margin: 0;
-          width: 100%;
-          font-size: 1rem;
-          padding: 0 rem(30);
-
-          img {
-            width: rem(39);
-            vertical-align: middle;
-          }
-        }
-      }
-
-    }
-    // <- .nav-details
 
     header {
       text-align: center;
@@ -576,18 +517,6 @@
         }
       }
 
-      footer {
-        width: 100%;
-
-        p {
-          font-size: 1rem;
-          margin: 1rem 0;
-
-          span {
-            font-weight: 700;
-          }
-        }
-      }
     }
     // <- .clients
   }
@@ -629,12 +558,6 @@
       background-image: url("../../../../../public/assets/pozadina1-mob.jpg");
       background-size: rem(750) auto;
 
-      nav {
-        text-align: left;
-      }
-      .nav-details {
-        height: rem(100);
-      }
       header {
         .header-cont {
           padding-top: 0;
@@ -839,12 +762,6 @@
             margin-right: rem(-20);
           }
         }
-
-        footer {
-          p {
-            font-size: 0.8rem;
-          }
-        }
       }
       // <- .clients
 
@@ -853,11 +770,4 @@
   }
   // #home
 
-}
-
-
-
-// topo slide fix
-.second-anim {
-  opacity: 0 ;
 }

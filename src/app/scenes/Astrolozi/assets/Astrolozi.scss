@@ -1,0 +1,164 @@
+// import variables
+@import '../../../assets/variables.scss';
+// import header
+@import '../../../assets/Header.scss';
+// import footer
+@import '../../../assets/Footer.scss';
+
+
+#astrolozi {
+  width: 100%;
+  background-image: url(../../../../../public/assets/pozadina5.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: $white;
+
+  .astro-table {
+    width: 90%;
+    max-width: 1400px;
+    margin: rem(30) auto;
+    text-align: center;
+
+    .slide-member-cont {
+      display: inline-block;
+      vertical-align: top;
+      width: rem(500);
+      position: relative;
+      z-index: 2;
+      padding: rem(120) rem(20) rem(10);
+      background-color: $black;
+      border-radius: rem(30);
+      overflow: visible;
+      margin: rem(120) rem(20) rem(20);
+
+      .img-cont {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: $black;
+        padding: rem(10);
+        width: rem(216);
+        height: rem(216);
+        border-radius: calc((rem(196) + rem(20)) / 2);
+
+        .img-wrapper {
+          width: 100;
+          height: 100%;
+          border-radius: 50%;
+          overflow: hidden;
+        }
+
+        img {
+          width: rem(196);
+        }
+      }
+
+      .name-table {
+        display: table;
+        width: 100%;
+
+        .left {
+          display: table-cell;
+          text-align: left;
+
+          p {
+
+            span {
+              font-weight: 700;
+              text-transform: uppercase;
+            }
+          }
+        }
+
+        .right {
+          display: table-cell;
+          text-align: right;
+
+          p {
+            vertical-align: middle;
+
+            img {
+              width: rem(30);
+              vertical-align: middle;
+              margin-right: rem(4);
+            }
+          }
+        }
+      }
+
+      .osavet {
+        p {
+          text-align: justify;
+          line-height: 1.2;
+
+          span {
+            font-weight: 700;
+          }
+        }
+      }
+
+      .tehn {
+        p {
+          text-align: justify;
+          line-height: 1.4;
+
+          span {
+            font-weight: 700;
+          }
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        width: 100%;
+        padding: rem(20);
+        font-weight: 700;
+        border-radius: rem(10);
+        display: table;
+        table-layout: fixed;
+
+        .left, .right {
+          display: table-cell;
+          vertical-align: middle;
+          text-align: left;
+          font-size: 0.85rem;
+        }
+
+        .right {
+          display: table-cell;
+          vertical-align: middle;
+          text-align: right;
+        }
+      }
+
+      a.av {
+        background-color: rgb(1, 187, 1);
+      }
+
+      a.non-av {
+        background-color: rgb(197, 2, 2);
+      }
+
+    }
+  }
+}
+
+// mobile
+@media screen and (max-width: $mobile-size) {
+  #astrolozi {
+    .astro-table {
+      .slide-member-cont {
+        width: rem(440);
+        margin: rem(120) 0 0;
+
+        a {
+          table-layout: auto;
+        }
+      }
+    }
+  }
+}

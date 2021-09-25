@@ -1,0 +1,27 @@
+// import variables
+@import './variables.scss';
+
+footer {
+  width: 100%;
+  color: $white;
+  text-align: center;
+
+  p {
+    font-size: 1rem;
+    margin: 1rem 0 0;
+    padding-bottom: 1rem;
+
+    span {
+      font-weight: 700;
+    }
+  }
+}
+
+// mobile
+@media screen and (max-width: $mobile-size) {
+  footer {
+    p {
+      font-size: 0.8rem;
+    }
+  }
+}

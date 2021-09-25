@@ -1,6 +1,7 @@
 import React from 'react'
 
-// images
+// components
+import Footer from '../../components/Footer'
 
 // import clients info
 import clients from '../utils/clients'
@@ -49,12 +50,7 @@ const Clients = props => {
         </div>
       </div>
 
-
-      <footer>
-        <p>
-          &copy; 2021. Astrologis. Sva prava zadržana. <span>Uslovi korišćenja | Politika privatnosti</span>
-        </p>
-      </footer>
+      <Footer />
     </section>
   )
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 
 // images
-import flag from '../../../../../public/assets/zastava.png'
+import flag from '../../../../public/assets/zastava.png'
 
 const CallInfo = props => {
   return (
