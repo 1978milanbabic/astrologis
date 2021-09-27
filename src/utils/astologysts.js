@@ -14,7 +14,7 @@ const astrologs = [
     available: true,
     about: 'Moje godine rada sa tarot kartama pokazale su mi da se uz pomoć alternativnih tehnika svaka životna situacija može promeniti, biranjem boljeg i srećnijeg puta',
     techniques: 'tarot, numerologija, duhovna rešavanja, ljubavna predviđanja, bioenergija, psihološki razgovori.',
-    phone: '0900-000-000',
+    phone: '0901-900-907',
     price: 150
   },
   {
@@ -24,7 +24,7 @@ const astrologs = [
     available: true,
     about: 'Pomažem Vam u pogledu na Vašu sadašnjost, a uz pomoć tarota videćemo gde i kako krenuti u budućnost.',
     techniques: 'tarot, sudbinske karte, numerologija, sudbinske karte, psihološki razgovori, bioenergija.',
-    phone: '0900-000-000',
+    phone: '0901-900-907',
     price: 150
   },
   {
@@ -34,7 +34,7 @@ const astrologs = [
     available: true,
     about: 'Za sve Vaše probleme obratite mi se sa poverenjem jer moje dugogodišnje iskustvo u pomaganju kroz ezoteriju može Vam samo pomoći.',
     techniques: 'tumačenje snova, sudbinske karte, tarot, vidovidost, skidanje uroka, energija na daljinu.',
-    phone: '0900-000-000',
+    phone: '0901-900-907',
     price: 150
   },
   {
@@ -44,7 +44,7 @@ const astrologs = [
     available: false,
     about: 'Stručnjak za tarot i numerologiju. Bavim se pomaganjem ljudima na polju ljubavi, finansija, porodičnih problema i raznih psihičkih stanja energijom na daljinu.',
     techniques: 'energija na daljinu, ljubav, finansije, energetsko čišćenje, numerologija, tarot, slanje pozitivne energije.',
-    phone: '0900-000-000',
+    phone: '0901-900-907',
     price: 150
   },
 ]

@@ -9,7 +9,7 @@ const CallInfo = props => {
       <p>
         <img src={flag} alt='' />
         &emsp;
-        0900-000-000
+        0901-900-907
         &emsp;&emsp;
         150 RSD/min
         {props.device === 'mobile' ?

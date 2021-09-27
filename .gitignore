@@ -6,6 +6,7 @@ stats.json
 dist/
 dist
 .cache/
+.cache
 
 # misc
 .DS_Store

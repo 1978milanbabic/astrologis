@@ -15,6 +15,15 @@ footer {
       font-weight: 700;
     }
   }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
 // mobile

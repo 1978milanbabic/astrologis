@@ -1,9 +1,5 @@
 // import variables
 @import '../../../assets/variables.scss';
-// import header
-@import '../../../assets/Header.scss';
-// import footer
-@import '../../../assets/Footer.scss';
 
 
 #astrolozi {
@@ -19,18 +15,25 @@
     max-width: 1400px;
     margin: rem(30) auto;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
 
     .slide-member-cont {
-      display: inline-block;
+      display: flex;
+      flex-direction: column;
       vertical-align: top;
-      width: rem(500);
+      width: 48%;
+      max-width: rem(500);
       position: relative;
       z-index: 2;
-      padding: rem(120) rem(20) rem(10);
+      padding: rem(120) rem(20) rem(70);
       background-color: $black;
       border-radius: rem(30);
       overflow: visible;
-      margin: rem(120) rem(20) rem(20);
+      margin: rem(120) 0 rem(20);
 
       .img-cont {
         position: absolute;
@@ -114,12 +117,16 @@
         text-decoration: none;
         color: #fff;
         display: block;
-        width: 100%;
+        width: calc(100% - rem(40));
         padding: rem(20);
         font-weight: 700;
         border-radius: rem(10);
         display: table;
         table-layout: fixed;
+        position: absolute;
+        bottom: rem(20);
+        left: 50%;
+        transform: translateX(-50%);
 
         .left, .right {
           display: table-cell;
@@ -148,11 +155,12 @@
 }
 
 // mobile
-@media screen and (max-width: $mobile-size) {
+@media screen and (max-width: 1100px) {
   #astrolozi {
     .astro-table {
       .slide-member-cont {
-        width: rem(440);
+        width: 100%;
+        max-width: rem(440);
         margin: rem(120) 0 0;
 
         a {

@@ -12,6 +12,12 @@ import astrologs from '../../../../utils/astologysts'
 const Astrologists = props => {
   const { device } = props
 
+  const handleCallable = (e, av) => {
+    if (!av) {
+      e.preventDefault()
+    }
+  }
+
   return (
     <section className='astrologists'>
       <div className='astro-headline'>
@@ -74,6 +80,7 @@ const Astrologists = props => {
                 </div>
                 <a
                   href={`tel: ${astro.phone}`}
+                  onClick={e => handleCallable(e, astro.available)}
                   className={astro.available ? 'av' : 'non-av'}
                 >
                   <span className='left'>

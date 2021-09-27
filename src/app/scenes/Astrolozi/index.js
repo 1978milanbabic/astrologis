@@ -22,6 +22,12 @@ const Astrolozi = () => {
     if (ss) setScreenSize(ss)
   }
 
+  const handleCallable = (e, av) => {
+    if (!av) {
+      e.preventDefault()
+    }
+  }
+
   return (
     <div id='astrolozi'>
       <Header getScreenSize={handleScreeSize} link='' linkName='Početna' />
@@ -55,6 +61,7 @@ const Astrolozi = () => {
             </div>
             <a
               href={`tel: ${astro.phone}`}
+              onClick={e => handleCallable(e, astro.available)}
               className={astro.available ? 'av' : 'non-av'}
             >
               <span className='left'>
