@@ -33,7 +33,7 @@ const clients = [
     years: 34,
     location: 'Subotica',
     imageSrc: client4,
-    comment: 'Bogdana je moj ANDJEO CUVAR. Život mi je promenila u prve tri minute razgovora a sve nakon toga bio je samo šlag na torti. Još uvek ne mogu da verujem kojom brzino i preciznošću je gledao kroz mene i moje probleme.'
+    comment: 'Bogdana je moj ANDJEO CUVAR. Život mi je promenila u prve tri minute razgovora a sve nakon toga bio je samo šlag na torti. Još uvek ne mogu da verujem kojom brzinom i preciznošću je gledao kroz mene i moje probleme.'
   }
 ]
 
