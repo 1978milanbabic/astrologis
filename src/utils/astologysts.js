@@ -10,7 +10,7 @@ const astrologs = [
   {
     imgSrc: astro1,
     name: 'Marija',
-    code: '84',
+    code: '11',
     available: true,
     about: '***',
     techniques: 'tarot i numerologija',
@@ -20,7 +20,7 @@ const astrologs = [
   {
     imgSrc: astro4,
     name: 'Kristina',
-    code: '59',
+    code: '12',
     available: true,
     about: 'Kombinacija astrologije i tarota daje odgovore na sva pitanja. Rešenja svih dilema i problema na ljubavom, poslovnom i zdravstvenom planu.',
     techniques: 'tarot i numerologija',
@@ -30,7 +30,7 @@ const astrologs = [
   {
     imgSrc: astro2,
     name: 'Anita',
-    code: '73',
+    code: '13',
     available: false,
     about: '***',
     techniques: '***',
