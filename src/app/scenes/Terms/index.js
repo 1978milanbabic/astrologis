@@ -8,7 +8,7 @@ const Terms = props => {
     <div className='terms-wrapper'>
       <div className='block_more_info'>
         <h1>Uslovi &amp; Korišćenja</h1>
-        <p>Internet prodavnica, koja se nalazi na <a href="http://diabetin.pro/">diabetin.pro</a> u daljem tekstu
+        <p>Internet prodavnica, koja se nalazi na <a href="https://astrologis.rs/">astrologis.rs</a> u daljem tekstu
           "Prodavac", objavljuje Javnu ponudu o prodaji robe daljinskim putem.</p>
         <h2>1. DEFINICIJA USLOVA</h2>
         <p>
