@@ -3,7 +3,6 @@ import React from 'react'
 // import images
 import astro1 from '../../public/assets/marija.png'
 import astro2 from '../../public/assets/anika.png'
-// import astro3 from '../../public/assets/astrolog3-100.jpg'
 import astro4 from '../../public/assets/astrolog4.jpg'
 
 const astrologs = [
