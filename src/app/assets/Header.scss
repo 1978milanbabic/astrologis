@@ -43,10 +43,14 @@ nav {
   height: rem(60);
   position: relative;
   overflow: hidden;
+  text-align: center;
 
   .upper-info-slide {
-    position: absolute;
-    top: rem(10);
+    padding-top: rem(10);
+    display: inline-block;
+    width: 100%;
+    max-width: 1000px;
+    text-align: left;
 
     p {
       margin: 0;
