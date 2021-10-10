@@ -1,46 +1,46 @@
 {
-    "name": "astrologis",
-    "author": "Milan Babic",
-    "version": "1.1.1",
-    "description": "FE-app",
-    "main": "index.js",
-    "scripts": {
-        "start": "parcel public/index.html",
-        "build": "parcel build public/index.html/"
-    },
-    "keywords": [
-        "astrologis"
-    ],
-    "license": "MIT",
-    "dependencies": {
-        "react-responsive-carousel": "^3.2.21",
-        "react-router-dom": "^5.3.0",
-        "react-spring": "^9.2.4",
-        "sass": "^1.41.1"
-    },
-    "devDependencies": {
-        "@babel/core": "^7.4.0",
-        "@babel/plugin-proposal-class-properties": "^7.14.5",
-        "@babel/plugin-proposal-object-rest-spread": "^7.15.6",
-        "@babel/preset-env": "^7.4.2",
-        "@babel/preset-react": "^7.0.0",
-        "babel-eslint": "^10.0.1",
-        "babel-jest": "^27.1.1",
-        "enzyme": "^3.11.0",
-        "enzyme-adapter-react-16": "^1.15.6",
-        "eslint": "^5.13.0",
-        "eslint-config-airbnb": "^17.1.0",
-        "eslint-plugin-import": "^2.16.0",
-        "eslint-plugin-jsx-a11y": "^6.2.1",
-        "eslint-plugin-react": "^7.12.4",
-        "jest": "^27.1.1",
-        "jest-css-modules-transform": "^4.3.0",
-        "parcel-bundler": "^1.11.0",
-        "postcss": "^8.3.6",
-        "react": "^16.14.0",
-        "react-dom": "^16.14.0",
-        "react-hot-loader": "^4.13.0",
-        "react-test-renderer": "^17.0.2",
-        "react-testing-library": "^8.0.1"
-    }
+  "name": "astrologis",
+  "author": "Milan Babic",
+  "version": "1.1.2",
+  "description": "FE-app",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html/"
+  },
+  "keywords": [
+    "astrologis"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "react-responsive-carousel": "^3.2.21",
+    "react-router-dom": "^5.3.0",
+    "react-spring": "^9.2.4",
+    "sass": "^1.41.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.15.6",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^27.1.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^27.1.1",
+    "jest-css-modules-transform": "^4.3.0",
+    "parcel-bundler": "^1.11.0",
+    "postcss": "^8.3.6",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-hot-loader": "^4.13.0",
+    "react-test-renderer": "^17.0.2",
+    "react-testing-library": "^8.0.1"
+  }
 }
