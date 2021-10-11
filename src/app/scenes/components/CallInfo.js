@@ -17,6 +17,10 @@ const CallInfo = props => {
           : (<>&emsp;&emsp;</>)
         }
         Svaki poziv dobija gratis amulet za novac, sreću i zdravlje!
+        <br />
+        <span className='last-line'>
+          Radno Vreme  11:00 - 23:00 Pon-Pet
+        </span>
       </p>
     </div>
   )

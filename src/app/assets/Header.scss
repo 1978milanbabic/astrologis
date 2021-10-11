@@ -40,7 +40,7 @@ nav {
 .nav-details {
   width: 100%;
   background-color: $black;
-  height: rem(60);
+  height: rem(85);
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -63,6 +63,11 @@ nav {
         width: rem(39);
         vertical-align: middle;
       }
+
+      span.last-line {
+        display: inline-block;
+        padding-left: rem(70);
+      }
     }
   }
 
@@ -70,16 +75,24 @@ nav {
 // <- .nav-details
 
 // mobile
-@media screen and (max-width: $mobile-size) {
+@media screen and (max-width: 860px) {
   nav {
     text-align: left;
   }
   .nav-details {
     height: rem(100);
+
+    .upper-info-slide {
+      text-align: center;
+
+      p {
+        max-width: rem(560);
+        text-align: left;
+        display: inline-block;
+      }
+    }
   }
 }
-
-
 
 // topo slide fix
 .second-anim {
