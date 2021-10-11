@@ -40,7 +40,8 @@ nav {
 .nav-details {
   width: 100%;
   background-color: $black;
-  height: rem(85);
+  // height: rem(85);
+  padding-bottom: rem(15);
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -80,7 +81,7 @@ nav {
     text-align: left;
   }
   .nav-details {
-    height: rem(100);
+    // height: rem(100);
 
     .upper-info-slide {
       text-align: center;
