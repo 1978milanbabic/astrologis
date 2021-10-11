@@ -30,7 +30,7 @@ const astrologs = [
     imgSrc: astro2,
     name: 'Anika',
     code: '33',
-    available: false,
+    available: true,
     about: 'Neko je rekao da je Astrologija ČITAC BOZIJEG RUKOPISA a ona je način mog života vec 40 godina! Specijalnost mi je Natalna Astrologija i ona je osnov svega! Takodje radim Progresivnu Astrologiju a lično volim Lunarni Horoskop! Astro Tarot je takodje nešto što mi predstavlja izazov ali kao dopunu Astrologiji! Ja Vam probleme neću resiti ,ali ću Vas usmeriti na najbolji mogući put!',
     techniques: 'Astrologija',
     phone: '0901-900-907',
