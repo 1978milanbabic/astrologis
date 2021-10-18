@@ -33,7 +33,6 @@ const Home = () => {
         <header>
           <div className='header-cont'>
             <h1>VAŠU PUTANJU OSVETLJAVA MAPA ZVEZDA</h1>
-            TEST
           </div>
           <div className='sub-header-cont'>
             <p>Često se kaže da svaka prediktivna disciplina ima svoje posebne prednosti,
